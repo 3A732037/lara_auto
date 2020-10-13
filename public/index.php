@@ -29,9 +29,10 @@ $log->error('Bar');
 //第四周 carbon練習
 
 use Carbon\Carbon;
-
-printf("Right now is %s", Carbon::now()->toDateTimeString());
-printf("Right now in Vancouver is %s", Carbon::now('America/Vancouver'));  //implicit __toString()
+echo "</br>";
+printf("現在是 %s", Carbon::now()->toDateTimeString());
+echo "</br>";
+printf("Vancouver現時時間: %s", Carbon::now('America/Vancouver'));  //implicit __toString()
 $tomorrow = Carbon::now()->addDay();
 $lastWeek = Carbon::now()->subWeek();
 $nextSummerOlympics = Carbon::createFromDate(2016)->addYears(4);
