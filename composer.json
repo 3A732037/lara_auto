@@ -1,0 +1,11 @@
+{
+    "name": "ncut/lara_auto",
+    "description": "autoload classes",
+    "authors": [
+        {
+            "name": "SuChengDon",
+            "email": "3a732037@gm.student.ncut.edu.tw"
+        }
+    ],
+    "require": {}
+}
